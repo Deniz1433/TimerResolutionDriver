@@ -2,8 +2,8 @@
 A "driverless" timer resolution driver that calls `ExSetTimerResolution` from the kernel.  
 
 ## **Overview**  
-This driver can be mapped to the kernel using [KDU](https://github.com/hfiref0x/KDU) to request a specific timer resolution on **Windows 2004+ systems**.  
-On **Windows 11+**, this driver is **mostly obsolete** due to the existence of the GlobalTimerResolutionRequests registry key. 
+This driver can be mapped to the kernel using [KDU](https://github.com/hfiref0x/KDU) to request a specific timer resolution on **Windows 2004+ systems**.&nbsp;  
+On **Windows 11+**, this driver is **mostly obsolete** due to the existence of the GlobalTimerResolutionRequests registry key.&nbsp; 
 
 ## **Testing & Benchmarking**  
 You can use **MeasureSleep** from [AMIT's repo](https://github.com/valleyofdoom/TimerResolution)  
